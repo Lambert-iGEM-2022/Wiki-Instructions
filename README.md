@@ -254,7 +254,7 @@ Each page on the wiki will use accent colors to match it's committee, the colors
 
 
 ## Custom Components Library
-**Along with the basic markdown elements**, we have created a library of custom HTML layout templates that you can use in markdown to achieve complex layouts. **To use any of the HTML layout templates**, copy the code snippet of the layout you want to use and replace the filler content with your content. **If you can't find what you are looking** for in the templates already created below, contact the wiki team and we will create a custom layout template for you.
+**Along with the basic markdown elements**, we have created a library of custom HTML layout templates that you can use in markdown to achieve complex layouts. **To use any of the HTML layout templates**, copy the code snippet of the layout you want to use and replace the filler content with your content. **If you can't find what you are looking** for in the templates already created below, contact the wiki team and we will create a custom layout template for you. **If you are looking for custom animations or graphics** on your page, contact the graphics committie.
 <table>
 <tr>  
  
@@ -329,6 +329,28 @@ image2Figure="Figure 2. another image"
 
 <img width=1600 alt="Screen Shot 2022-06-28 at 7 34 42 PM" src="https://user-images.githubusercontent.com/61951438/176594151-1a7eb206-b068-45df-9cfc-7dead8892cf7.png">
 </td>
+</tr>
+
+<tr>
+<th> To be added </th>
+</tr>
+
+<tr>
+<td> Circular Ordered Lists </td>
+</tr>
+
+
+<tr>
+<td> Image Carousel </td>
+</tr>
+
+<tr>
+<td> Tables </td>
+</tr>
+
+
+<tr>
+<td> Circular Ordered Lists </td>
 </tr>
 
 
