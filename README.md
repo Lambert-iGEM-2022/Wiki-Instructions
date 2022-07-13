@@ -5,7 +5,10 @@
 **Markdown is a easy-to-use markup language** that allows you to create formatted text. It reads like a normal text file and can achieve complex layouts by embedding snippets of pre-formatted HTML templates. This allows for complex layouts that weren't previously possible without HTML to be easily utilized in markdown. **To create a markdown file**, create a new file with the `.md` ending. Inside a markdown file, simply type away like you would in a new google doc. **For a quick markdown guide**, refer to the table below: 
 
 
-## Filling it content
+## Filling In Content
+
+>Refer to [this](https://www.youtube.com/watch?v=AdAHSMPQEUQ) video for a more in depth guide on filling in content.
+
 Use instructions from iGEM HQ to upload pictures and videos, and give us the URLs in the Markdown file you submit to us.
 
 When you send us your file, please make a comment at the top of the file with the header image URL.
