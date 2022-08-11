@@ -262,9 +262,9 @@ if coding > biology {
 
 
 ## Committee Colors 
-Each page on the wiki will use accent colors to match it's committee. The colors for each committee **has been finalized** and are shown below.
+Each page on the wiki will use accent colors to match it's committee. The colors for each committee **have been finalized** and are shown below.
 
-![Group 131](https://user-images.githubusercontent.com/61951438/177016966-57ad98a1-bdfc-4fe9-8501-b1c9c52e2562.jpg)
+![committee_colors](https://user-images.githubusercontent.com/65861582/184052154-90b482cd-f9ac-4e00-8992-04efc0024d71.jpg)
 
 
 
