@@ -346,6 +346,29 @@ image2Figure="Figure 2. another image"
 </td>
 </tr>
 
+ <tr>
+<td>
+
+### APA Citations
+
+
+```html
+{% include apasource.html
+source="Higuera, V. (2020, April 1). Coronary artery disease diet: Foods to eat and foods to avoid. Healthline. Retrieved August 1, 2022, from https://www.healthline.com/health/coronary-artery-disease/foods-to-eat-and-avoid"
+ %}
+ ```
+
+</td>
+
+<td>
+
+<img width="1600" alt="Screen Shot 2022-09-23 at 1 34 35 PM" src="https://user-images.githubusercontent.com/61951438/192024944-3fe9b3cd-509f-4943-a6ff-4e7d289366cc.png">
+
+
+  </td>
+</tr>
+ 
+ 
 <tr>
 <th> To be added </th>
 </tr>
