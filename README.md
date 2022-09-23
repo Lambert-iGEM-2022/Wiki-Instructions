@@ -354,7 +354,7 @@ image2Figure="Figure 2. another image"
 
 ```html
 {% include apasource.html
-source="Higuera, V. (2020, April 1). Coronary artery disease diet: Foods to eat and foods to avoid. Healthline. Retrieved August 1, 2022, from https://www.healthline.com/health/coronary-artery-disease/foods-to-eat-and-avoid"
+source="Gupta, M. (2022, April 1). manasvi gupta article.com"
  %}
  ```
 
