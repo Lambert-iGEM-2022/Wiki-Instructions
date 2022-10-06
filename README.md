@@ -318,7 +318,7 @@ filterColor="brightness(0) saturate(100%) invert(34%) sepia(97%)"
 ## Committee Colors 
 Each page on the wiki will use accent colors to match it's committee. The colors for each committee **have been finalized** and are shown below.
 
-![committee_colors](https://user-images.githubusercontent.com/65861582/184052154-90b482cd-f9ac-4e00-8992-04efc0024d71.jpg)
+![Group 132](https://user-images.githubusercontent.com/61951438/194388498-4be4b6ee-61ba-41dc-9728-87c68ebe18e1.jpg)
 
 
 
