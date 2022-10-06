@@ -298,6 +298,28 @@ Each page on the wiki will use accent colors to match it's committee. The colors
 <img width=1600 alt="Screen Shot 2022-06-28 at 7 34 42 PM" src="https://user-images.githubusercontent.com/61951438/176321499-81ca1e8f-8dd1-4146-b6c1-77865a7398ef.png">
 </td>
 </tr>
+
+<tr>
+<td>
+
+### Image Carousel
+
+```html
+ {% include imageCarousel.html
+images="https://static.igem.wiki/teams/4245/wiki/labsafety-1.jpg,https://static.igem.wiki/teams/4245/wiki/labsafety-2.jpg,https://static.igem.wiki/teams/4245/wiki/labsafety-3.jpg"
+%}
+
+ ```
+
+</td>
+
+<td>
+![Screen Shot 2022-10-05 at 9 02 30 PM](https://user-images.githubusercontent.com/61951438/194328601-590bc882-38a4-48c3-9db4-5762d6208ace.png)
+
+</td>
+</tr>
+
+
  
  <tr>
 <td>
