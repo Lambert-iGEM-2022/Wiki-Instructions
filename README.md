@@ -363,6 +363,7 @@ Each page on the wiki will use accent colors to match it's committee. The colors
 images="https://static.igem.wiki/teams/4245/wiki/labsafety-1.jpg,
  https://static.igem.wiki/teams/4245/wiki/labsafety-2.jpg,
  https://static.igem.wiki/teams/4245/wiki/labsafety-3.jpg"
+ caption="These are caption."
 %}
 
  ```
