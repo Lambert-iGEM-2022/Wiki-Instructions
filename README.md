@@ -255,6 +255,60 @@ if coding > biology {
 </tr>
 
  
+ <tr>
+<td>
+ <b>Icon Header 1</b>
+ 
+ Get the filterColor using [this link](https://angel-rs.github.io/css-color-filter-generator/)
+ 
+</td>
+<td>
+
+ 
+ ```markdown
+ 
+  {% include iconHeader1.html
+icon="icon.svg"
+title="Here is a header"
+filterColor="brightness(0) saturate(100%) invert(34%) sepia(97%)"
+%}
+ ```
+
+</td>
+
+<td>
+<img width="387" alt="Screen Shot 2022-10-06 at 1 26 58 PM" src="https://user-images.githubusercontent.com/61951438/194379287-2ae1aa8c-32c1-47b2-ac3c-1677cbeb3047.png">
+
+</td>
+</tr>
+ 
+ <tr>
+<td>
+ <b>Icon Header 2</b>
+ 
+ Get the filterColor using [this link](https://angel-rs.github.io/css-color-filter-generator/)
+ 
+</td>
+<td>
+
+ 
+ ```markdown
+ 
+  {% include iconHeader2.html
+icon="icon.svg"
+title="Here is a header"
+filterColor="brightness(0) saturate(100%) invert(34%) sepia(97%)"
+%}
+ ```
+
+</td>
+
+<td>
+<img width="387" alt="Screen Shot 2022-10-06 at 1 26 58 PM" src="https://user-images.githubusercontent.com/61951438/194379287-2ae1aa8c-32c1-47b2-ac3c-1677cbeb3047.png">
+
+</td>
+</tr>
+ 
 </table>
 
 
