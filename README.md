@@ -356,6 +356,27 @@ Each page on the wiki will use accent colors to match it's committee. The colors
 <tr>
 <td>
 
+### Fancy Paragraph
+
+```html
+{% include fancyParagraph.html
+title="My topic"
+text="this is a paragarph."
+%}
+ ```
+
+</td>
+
+
+<td>
+<img width="631" alt="Screen Shot 2022-10-08 at 4 04 10 PM" src="https://user-images.githubusercontent.com/61951438/194725972-4a634557-f438-4919-8878-8b32d91b07e9.png">
+
+</td>
+</tr>
+
+<tr>
+<td>
+
 ### Image Carousel
 
 ```html
@@ -371,7 +392,7 @@ images="https://static.igem.wiki/teams/4245/wiki/labsafety-1.jpg,
 </td>
 
 <td>
-![Screen Shot 2022-10-05 at 9 02 30 PM](https://user-images.githubusercontent.com/61951438/194328601-590bc882-38a4-48c3-9db4-5762d6208ace.png)
+<img width="688" alt="Screen Shot 2022-10-08 at 4 04 30 PM" src="https://user-images.githubusercontent.com/61951438/194725994-405af37a-5fb1-4f51-bcef-54a19169fee2.png">
 
 </td>
 </tr>
