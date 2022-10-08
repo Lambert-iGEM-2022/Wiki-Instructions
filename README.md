@@ -243,7 +243,6 @@ if coding > biology {
  source="www.linktotheimage.com/imageurl" 
  alt="this is an image" 
  caption="Figure 1. This is an image of Akshaya"
- aspectRatio=1.3
  %}
  ```
 
@@ -369,8 +368,9 @@ text="this is a paragarph."
 
 
 <td>
-<img width="631" alt="Screen Shot 2022-10-08 at 4 04 10 PM" src="https://user-images.githubusercontent.com/61951438/194725972-4a634557-f438-4919-8878-8b32d91b07e9.png">
+<img width="615" alt="Screen Shot 2022-10-08 at 4 08 34 PM" src="https://user-images.githubusercontent.com/61951438/194726108-dffd93de-740e-460e-aafa-3579f27e4665.png">
 
+ 
 </td>
 </tr>
 
