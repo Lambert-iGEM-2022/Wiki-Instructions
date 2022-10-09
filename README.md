@@ -1,13 +1,14 @@
 # Wiki Instructions
+
 **For this year's Lambert iGEM wiki**, use **markdown** to write your content and convert it to formatted HTML. **There is zero learning curve** for markdown and it is almost impossible to break something. In fact, this `README` is written in markdown.
 
 ## Markdown
-**Markdown is a easy-to-use markup language** that allows you to create formatted text. It reads like a normal text file and can achieve complex layouts by embedding snippets of pre-formatted HTML templates. This allows for complex layouts that weren't previously possible without HTML to be easily utilized in markdown. **To create a markdown file**, create a new file with the `.md` ending. Inside a markdown file, simply type away like you would in a new google doc. **For a quick markdown guide**, refer to the table below: 
 
+**Markdown is a easy-to-use markup language** that allows you to create formatted text. It reads like a normal text file and can achieve complex layouts by embedding snippets of pre-formatted HTML templates. This allows for complex layouts that weren't previously possible without HTML to be easily utilized in markdown. **To create a markdown file**, create a new file with the `.md` ending. Inside a markdown file, simply type away like you would in a new google doc. **For a quick markdown guide**, refer to the table below:
 
 ## Filling In Content
 
->Refer to [this](https://www.youtube.com/watch?v=AdAHSMPQEUQ) video for a more in depth guide on filling in content.
+> Refer to [this](https://www.youtube.com/watch?v=AdAHSMPQEUQ) video for a more in depth guide on filling in content.
 
 Use instructions from iGEM HQ to upload pictures and videos, and give us the URLs in the Markdown file you submit to us.
 
@@ -54,7 +55,6 @@ Headings
  </tr>
  <tr>
 
- 
 <td>
  Bold
 </td>
@@ -70,7 +70,6 @@ Headings
 
 </td>
  </tr>
- 
 
 <tr>
  
@@ -110,7 +109,6 @@ Headings
 <img width="296" alt="Screen Shot 2022-07-02 at 1 19 18 AM" src="https://user-images.githubusercontent.com/61951438/176987631-ed569805-b8f8-470b-94f6-1d689c7a72ed.png">
 
 </td>
-
 
  </tr>
  
@@ -161,8 +159,7 @@ Headings
 </td>
 <td>
 
- 
- ```markdown
+```markdown
 `Inline`
 ```
 
@@ -192,7 +189,6 @@ if coding > biology {
 <td>
 <img width="383" alt="Screen Shot 2022-07-02 at 1 08 19 AM" src="https://user-images.githubusercontent.com/61951438/176987366-265f959a-98d4-4ec7-b4b8-4c4f552e2392.png">
 
-
 </td>
 </tr>
   <tr>
@@ -211,7 +207,6 @@ if coding > biology {
 <img width="599" alt="Screen Shot 2022-07-02 at 1 10 14 AM" src="https://user-images.githubusercontent.com/61951438/176987413-7c8f01fa-d1b8-4e40-b2f4-56a0d191d7b1.png">
 </td>
 </tr>
- 
 
   <tr>
 <td>
@@ -236,15 +231,13 @@ if coding > biology {
 </td>
 <td>
 
- 
- ```markdown
- 
-  {% include image.html 
- source="www.linktotheimage.com/imageurl" 
- alt="this is an image" 
- caption="Figure 1. This is an image of Akshaya"
- %}
- ```
+```markdown
+{% include image.html
+source="www.linktotheimage.com/imageurl"
+alt="this is an image"
+caption="Figure 1. This is an image of Akshaya"
+%}
+```
 
 </td>
 
@@ -253,7 +246,6 @@ if coding > biology {
 </td>
 </tr>
 
- 
  <tr>
 <td>
  <b>Icon Header 1</b>
@@ -263,15 +255,13 @@ if coding > biology {
 </td>
 <td>
 
- 
- ```markdown
- 
-  {% include iconHeader1.html
+```markdown
+{% include iconHeader1.html
 icon="icon.svg"
 title="Here is a header"
 filterColor="brightness(0) saturate(100%) invert(34%) sepia(97%)"
 %}
- ```
+```
 
 </td>
 
@@ -290,15 +280,13 @@ filterColor="brightness(0) saturate(100%) invert(34%) sepia(97%)"
 </td>
 <td>
 
- 
- ```markdown
- 
-  {% include iconHeader2.html
+```markdown
+{% include iconHeader2.html
 icon="icon.svg"
 title="Here is a header"
 filterColor="brightness(0) saturate(100%) invert(34%) sepia(97%)"
 %}
- ```
+```
 
 </td>
 
@@ -307,22 +295,40 @@ filterColor="brightness(0) saturate(100%) invert(34%) sepia(97%)"
 
 </td>
 </tr>
+
+<tr>
+<td>
+ <b>Change Color For Individual Texts</b>
+ wrap the hex code for the part of the text u want a different color and change the hex.
+ 
+</td>
+<td>
+
+```markdown
+<span style="color:#ffffff">hi</span>
+```
+
+</td>
+
+<td>
+
+</td>
+</tr>
  
 </table>
 
-
 **For a more detailed guide on markdown**, refer to [this page](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
+## Committee Colors
 
-## Committee Colors 
 Each page on the wiki will use accent colors to match it's committee. The colors for each committee **have been finalized** and are shown below.
 
 ![Group 132](https://user-images.githubusercontent.com/61951438/194388498-4be4b6ee-61ba-41dc-9728-87c68ebe18e1.jpg)
 
-
-
 ## Custom Components Library
+
 **Along with the basic markdown elements**, we have created a library of custom HTML layout templates that you can use in markdown to achieve complex layouts. **To use any of the HTML layout templates**, copy the code snippet of the layout you want to use and replace the filler content with your content. **If you can't find what you are looking** for in the templates already created below, contact the wiki team and we will create a custom layout template for you. **If you are looking for custom animations or graphics** on your page, contact the graphics committie.
+
 <table>
 <tr>  
  
@@ -336,15 +342,12 @@ Each page on the wiki will use accent colors to match it's committee. The colors
 ### Icon Info Component
 
 ```html
- {% include iconInfoComponent.html 
- title="title" 
- text="some text" 
- icon="www.linktotheimage.com/imageurl"
- %}
- ```
+{% include iconInfoComponent.html title="title" text="some text"
+icon="www.linktotheimage.com/imageurl", filterColor="brightness(0)
+saturate(100%) invert(34%) sepia(97%)" %}
+```
 
 </td>
-
 
 <td>
 
@@ -358,19 +361,14 @@ Each page on the wiki will use accent colors to match it's committee. The colors
 ### Fancy Paragraph
 
 ```html
-{% include fancyParagraph.html
-title="My topic"
-text="this is a paragarph."
-%}
- ```
+{% include fancyParagraph.html title="My topic" text="this is a paragarph." %}
+```
 
 </td>
-
 
 <td>
 <img width="615" alt="Screen Shot 2022-10-08 at 4 08 34 PM" src="https://user-images.githubusercontent.com/61951438/194726108-dffd93de-740e-460e-aafa-3579f27e4665.png">
 
- 
 </td>
 </tr>
 
@@ -380,14 +378,12 @@ text="this is a paragarph."
 ### Image Carousel
 
 ```html
- {% include imageCarousel.html
+{% include imageCarousel.html
 images="https://static.igem.wiki/teams/4245/wiki/labsafety-1.jpg,
- https://static.igem.wiki/teams/4245/wiki/labsafety-2.jpg,
- https://static.igem.wiki/teams/4245/wiki/labsafety-3.jpg"
- caption="These are caption."
-%}
-
- ```
+https://static.igem.wiki/teams/4245/wiki/labsafety-2.jpg,
+https://static.igem.wiki/teams/4245/wiki/labsafety-3.jpg" caption="These are
+caption." %}
+```
 
 </td>
 
@@ -397,22 +393,15 @@ images="https://static.igem.wiki/teams/4245/wiki/labsafety-1.jpg,
 </td>
 </tr>
 
-
- 
  <tr>
 <td>
 
 ### Two Column Paragraph Component
 
-
 ```html
- {% include twoColumnParagraphComponent.html
- column1Title="Title"
- column1Text="some text"
- column2Title="Title"
- column2Text="some text"
- %}
- ```
+{% include twoColumnParagraphComponent.html column1Title="Title"
+column1Text="some text" column2Title="Title" column2Text="some text" %}
+```
 
 </td>
 
@@ -427,20 +416,15 @@ images="https://static.igem.wiki/teams/4245/wiki/labsafety-1.jpg,
 
 ### Two Column Image Component
 
-
 ```html
-{% include twoColumnImageComponent.html
-image1URL="imageurl.com"
-image1Figure="Figure 1. an image"
-image2URL="imageurl.com"
-image2Figure="Figure 2. another image"
- %}
- ```
+{% include twoColumnImageComponent.html image1URL="imageurl.com"
+image1Figure="Figure 1. an image" image2URL="imageurl.com" image2Figure="Figure
+2. another image" %}
+```
 
 </td>
 
 <td>
-
 
 <img width=1600 alt="Screen Shot 2022-06-28 at 7 34 42 PM" src="https://user-images.githubusercontent.com/61951438/176594151-1a7eb206-b068-45df-9cfc-7dead8892cf7.png">
 </td>
@@ -451,19 +435,16 @@ image2Figure="Figure 2. another image"
 
 ### APA Citations
 
-
 ```html
-{% include apasource.html
-source="Gupta, M. (2022, April 1). manasvi gupta article.com"
- %}
- ```
+{% include apasource.html source="Gupta, M. (2022, April 1). manasvi gupta
+article.com" %}
+```
 
 </td>
 
 <td>
 
 <img width="1600" alt="Screen Shot 2022-09-23 at 1 34 35 PM" src="https://user-images.githubusercontent.com/61951438/192024944-3fe9b3cd-509f-4943-a6ff-4e7d289366cc.png">
-
 
   </td>
 </tr>
@@ -477,7 +458,6 @@ source="Gupta, M. (2022, April 1). manasvi gupta article.com"
 <td> Circular Ordered Lists </td>
 </tr>
 
-
 <tr>
 <td> Image Carousel </td>
 </tr>
@@ -486,12 +466,8 @@ source="Gupta, M. (2022, April 1). manasvi gupta article.com"
 <td> Tables </td>
 </tr>
 
-
 <tr>
 <td> Circular Ordered Lists </td>
 </tr>
 
-
-
  </table>
- 
